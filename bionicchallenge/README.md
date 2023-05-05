@@ -4,7 +4,7 @@
 Seu desafio é criar uma aplicação Web capaz de exibir dados que são gerados a partir de "diversos dispositivos".
 
 Instruções:
-Dento da pasta AlarmGenerator há uma aplicação desenvolvida em NodeJs que simula o envio de eventos para uma API que deverá ser criada por você. Para rodar a aplicação execute os seguintes passos:
+Dentro da pasta AlarmGenerator há uma aplicação desenvolvida em NodeJs que simula o envio de eventos para uma API que deverá ser criada por você. Para rodar a aplicação execute os seguintes passos:
 npm install
 node index.js
 A api desenvolvida por você deverá se capaz de receber os dados através do caminho "http://localhost:8082/alarm/";
