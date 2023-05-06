@@ -1,7 +1,15 @@
-const express = require('express')
-const cookieParser = require('cookie-parser');
-const cors = require('cors');
-const path = require('path');
-const mongoose = require('mongoose');
-const routes = require('./routers/alarmRouters')
+const express = require('express');
 const app = express();
+const axios = require('axios')
+
+
+require('./models/AlarmDb')
+
+const alarmRoutes = require("./routers/alarmRouters");
+const AlarmGenerator = require('./AlarmGenerator');
+
+
+app.use(express.json());
+app.use('/alarm', alarmRoutes);
+
+
