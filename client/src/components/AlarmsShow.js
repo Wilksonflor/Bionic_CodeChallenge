@@ -1,7 +1,7 @@
-function AlarmsShoow(){
+function AlarmsShow(){
     return(
         <p>Alarmes</p>
     )
 }
 
-export default AlarmsShoow;
+export default AlarmsShow;
