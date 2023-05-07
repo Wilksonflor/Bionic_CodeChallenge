@@ -3,6 +3,7 @@ const router = express.Router();
 const app = express();
 const port = 8082;
 const bodyParser = require('body-parser');
+
 const saveAlarm = require('../models/AlarmDb');
 const getAllAlarms = require('../models/AlarmDb');
 
